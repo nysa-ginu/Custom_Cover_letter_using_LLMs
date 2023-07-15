@@ -2,7 +2,11 @@
 
 
 
-https://github.com/nysa-ginu/Custom_Cover_letter_using_LLMs/assets/47381065/b9ff995f-3d20-4a17-89e2-26a20e1874fc
+
+https://github.com/nysa-ginu/Custom_Cover_letter_using_LLMs/assets/47381065/0bd3c6ea-5cb3-47c0-ba24-b2a9726f4d69
+
+
+
 
 <br>
 
