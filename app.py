@@ -1,3 +1,8 @@
+'''
+The module for the streamlit app.
+'''
+
+
 import streamlit as st
 from custom_cover_llm import generate_cover_letter
 import tempfile

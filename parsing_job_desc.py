@@ -1,3 +1,8 @@
+'''
+This module scraps the web to extract job specific information from the given url.
+'''
+
+
 import requests
 from bs4 import BeautifulSoup
 
@@ -10,7 +15,7 @@ def get_job_info(url):
     # Create a BeautifulSoup object for parsing the HTML content
     soup = BeautifulSoup(response, 'html.parser')
 
-    #     # Extract specific information from the page using BeautifulSoup methods
+    # Extract specific information from the page using BeautifulSoup methods
     role_name = soup.find('h1', class_='top-card-layout__title font-sans text-lg papabear:text-xl font-bold leading-open text-color-text mb-0 topcard__title').get_text().strip()
     company_name = soup.find('a', class_='topcard__org-name-link topcard__flavor--black-link').get_text().strip()
     
@@ -29,6 +34,3 @@ def get_job_info(url):
     description = ' '.join(text_elements)
 
     return role_name, company_name, description
-
-
-# get_job_info("https://www.linkedin.com/jobs/view/3638577861/?alternateChannel=search&refId=din%2BbPLwmuV0hMnzrJ3Rtw%3D%3D&trackingId=QwSYVyt4PcFEt8yAfF8fNQ%3D%3D")
