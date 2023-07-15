@@ -1,6 +1,13 @@
 # Custom_Cover_letter_using_LLMs
 
 
+
+https://github.com/nysa-ginu/Custom_Cover_letter_using_LLMs/assets/47381065/b9ff995f-3d20-4a17-89e2-26a20e1874fc
+
+<br>
+
+<hr>
+
 <p>This is a web application that generates customized cover letters and LinkedIn Messages to recruiters based on a provided resume and job description URL. It uses natural language processing techniques to analyze the job requirements and the candidate's qualifications to create personalized cover letters.</p>
 
 <br>
