@@ -16,7 +16,7 @@ https://github.com/nysa-ginu/Custom_Cover_letter_using_LLMs/assets/47381065/0bd3
 
 <h3>Link to site hosted on streamlit: </h3>
 <p><a href = "https://covrcraft.streamlit.app">https://covrcraft.streamlit.app</a><br>
-<i>Since the we use the cookie value to run BARD, the site might face some down-time as the cookie value keeps changing</i>.
+<i>Since the we use the cookie value to run BARD, the site might face some down-time as the cookie value keeps changing time-to-time.</i>.
 </p>
 
 <br>
@@ -32,6 +32,6 @@ https://github.com/nysa-ginu/Custom_Cover_letter_using_LLMs/assets/47381065/0bd3
 <ol>
     <li>Clone the repository: <b>git clone https://github.com/nysa-ginu/Custom_Cover_letter_using_LLMs.git</b></li>
     <li>Install the required dependencies: <b>pip install -r requirements.txt</b></li>
-    <li>Set up the necessary credentials for the BARD API. This <a href="https://github.com/dsdanielpark/Bard-API/tree/main#text-to-speechtts-from-bard">repository</a> will be helpful.</li>
+    <li>Set up the necessary credentials for the BARD API. This <a href="https://github.com/dsdanielpark/Bard-API/tree/main#authentication">repository</a> will be helpful.</li>
     <li>Run the application: <b>streamlit run app.py</b></li>
 </ol>
