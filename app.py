@@ -12,7 +12,7 @@ st.title('CovrCraft - Create your cover letter effortlessly!')
 
 letter_type = ['LinkedIn Connect Message', 'Full length Cover Letter']
 
-def generate_response(url, resume_file, selected_option):
+def generate_response(url, resume_file, selected_option, token):
 
     with tempfile.NamedTemporaryFile(delete=False) as tmp_file:
         tmp_file.write(resume_file.read())
@@ -35,6 +35,6 @@ with st.form('cover_letter_form'):
 
     if submitted:
         if job_url.strip() != "" and resume_file is not None:
-            generate_response(job_url, resume_file, letter_type_selected)
+            generate_response(job_url, resume_file, letter_type_selected, token)
         else:
             st.write("Please provide both the job URL and the resume file.")
