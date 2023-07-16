@@ -14,6 +14,11 @@ https://github.com/nysa-ginu/Custom_Cover_letter_using_LLMs/assets/47381065/0bd3
 
 <p>This is a web application that generates customized cover letters and LinkedIn Messages to recruiters based on a provided resume and job description URL. It uses natural language processing techniques to analyze the job requirements and the candidate's qualifications to create personalized cover letters.</p>
 
+<h3>Link to site hosted on streamlit: </h3>
+<p><a href = "https://covrcraft.streamlit.app">https://covrcraft.streamlit.app</a><br>
+<i>Since the we use the cookie value to run BARD, the site might face some down-time as the cookie value keeps changing</i>.
+</p>
+
 <br>
 <h3>Features: </h3>
 <ul>
