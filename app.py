@@ -8,6 +8,8 @@ from custom_cover_llm import generate_cover_letter
 import tempfile
 
 st.title('CovrCraft - Create your cover letter effortlessly!')
+token = st.secrets["BARD_TOKEN"]
+st.write(token)
 
 letter_type = ['LinkedIn Connect Message', 'Full length Cover Letter']
 
