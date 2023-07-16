@@ -19,7 +19,7 @@ def generate_response(url, resume_file, selected_option):
         tmp_file.write(resume_file.read())
         resume_path = tmp_file.name
 
-    output = generate_cover_letter(resume_path, url, selected_option)
+    output = generate_cover_letter(resume_path, url, selected_option, token)
     st.write(output)
 
 with st.form('cover_letter_form'):
