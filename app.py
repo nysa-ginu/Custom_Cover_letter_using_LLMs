@@ -8,7 +8,7 @@ from custom_cover_llm import generate_cover_letter
 import tempfile
 
 st.title('CovrCraft - Create your cover letter effortlessly!')
-token = st.secrets["BARD_TOKEN"]
+# token = st.secrets["BARD_TOKEN"]
 
 letter_type = ['LinkedIn Connect Message', 'Full length Cover Letter']
 
@@ -22,6 +22,11 @@ def generate_response(url, resume_file, selected_option):
     st.write(output)
 
 with st.form('cover_letter_form'):
+    token = st.text_area('Enter the BARD token: ')
+    st.markdown("""For instructions on how to get this token, you can headover to this 
+    [link](https://github.com/dsdanielpark/Bard-API/tree/main#authentication).
+    
+    """)
     job_url = st.text_area('Enter Public LinkedIn URL for the job posting: ')
     resume_file = st.file_uploader("Upload your resume", type=["pdf"], accept_multiple_files=False)
     letter_type_selected = st.radio("Select the type of letter: ", letter_type)
